@@ -1,0 +1,1518 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aryan Kumar | B.Tech CSE Student & Aspiring Software Developer</title>
+
+  <!-- SEO & Recruiter Metadata -->
+  <meta name="description" content="Portfolio of Aryan Kumar - 3rd-year B.Tech Computer Science & Engineering student actively seeking Software Development Internships and placement opportunities.">
+  <meta name="keywords" content="Aryan Kumar, Portfolio, Software Developer, B.Tech CSE, SDE Intern, Web Development, Machine Learning, Data Structures, Algorithms, C++, Python, Java, SQL">
+  <meta name="author" content="Aryan Kumar">
+  <meta name="theme-color" content="#080c14">
+
+  <!-- Open Graph / LinkedIn / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://YOUR_USERNAME.github.io/aryan-kumar-portfolio/">
+  <meta property="og:title" content="Aryan Kumar | B.Tech CSE Student & Aspiring Software Developer">
+  <meta property="og:description" content="3rd-year Computer Science & Engineering student passionate about software engineering, problem solving, algorithms, and practical applications.">
+  <meta property="og:image" content="assets/profile.jpg">
+
+  <!-- Twitter Meta -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Aryan Kumar | B.Tech CSE Student & Aspiring Software Developer">
+  <meta name="twitter:description" content="3rd-year Computer Science & Engineering student passionate about software engineering, problem solving, algorithms, and practical applications.">
+  <meta name="twitter:image" content="assets/profile.jpg">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%23080c14'/><text x='50%' y='58%' dominant-baseline='middle' text-anchor='middle' font-family='monospace' font-weight='800' font-size='44' fill='%2338bdf8'>&lt;AK/&gt;</text></svg>">
+
+  <!-- Google Fonts: Plus Jakarta Sans & JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome 6 Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Scroll Reading Progress Bar -->
+  <div id="scroll-progress" class="scroll-progress-bar" aria-hidden="true"></div>
+
+  <!-- Keyboard Accessibility Skip Link -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- ============================================== -->
+  <!-- NAVIGATION BAR (Sticky & Responsive)          -->
+  <!-- ============================================== -->
+  <header class="navbar-wrapper" id="navbar-header">
+    <nav class="navbar container" aria-label="Main Navigation">
+      <a href="#hero" class="brand-logo" aria-label="Aryan Kumar - Developer Portfolio">
+        <span class="logo-bracket">&lt;</span><span class="logo-name">Aryan</span><span class="logo-accent">.dev</span><span class="logo-bracket"> /&gt;</span>
+      </a>
+
+      <!-- Desktop Navigation Links -->
+      <ul class="nav-links" id="nav-links" role="menubar">
+        <li role="none"><a href="#hero" class="nav-link active" role="menuitem">Home</a></li>
+        <li role="none"><a href="#about" class="nav-link" role="menuitem">About</a></li>
+        <li role="none"><a href="#skills" class="nav-link" role="menuitem">Skills</a></li>
+        <li role="none"><a href="#education" class="nav-link" role="menuitem">Education</a></li>
+        <li role="none"><a href="#projects" class="nav-link" role="menuitem">Projects</a></li>
+        <li role="none"><a href="#certifications" class="nav-link" role="menuitem">Certifications</a></li>
+        <li role="none"><a href="#profiles" class="nav-link" role="menuitem">Profiles</a></li>
+        <li role="none"><a href="#resume" class="nav-link" role="menuitem">Resume</a></li>
+        <li role="none"><a href="#contact" class="nav-link" role="menuitem">Contact</a></li>
+      </ul>
+
+      <!-- Action Buttons -->
+      <div class="nav-actions">
+        <a href="assets/Aryan-Kumar-Resume.pdf" download="Aryan-Kumar-Resume.pdf" class="btn btn-sm btn-outline-glow nav-resume-btn" aria-label="Download Resume PDF">
+          <i class="fa-solid fa-file-arrow-down" aria-hidden="true"></i>
+          <span>Resume</span>
+        </a>
+        <a href="#contact" class="btn btn-sm btn-primary nav-cta-btn">
+          <span>Get in Touch</span>
+        </a>
+
+        <!-- Mobile Hamburger Button -->
+        <button type="button" class="hamburger-btn" id="hamburger-btn" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="mobile-menu">
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+        </button>
+      </div>
+    </nav>
+
+    <!-- Mobile Drawer Menu -->
+    <div class="mobile-menu" id="mobile-menu" aria-hidden="true">
+      <div class="mobile-menu-inner">
+        <div class="mobile-menu-header">
+          <span class="mobile-menu-title">Navigation</span>
+          <span class="mobile-status-badge"><span class="pulse-dot"></span> Open for Roles</span>
+        </div>
+        <ul class="mobile-nav-links">
+          <li><a href="#hero" class="mobile-nav-link active"><i class="fa-solid fa-house"></i> Home</a></li>
+          <li><a href="#about" class="mobile-nav-link"><i class="fa-solid fa-user"></i> About Me</a></li>
+          <li><a href="#skills" class="mobile-nav-link"><i class="fa-solid fa-code"></i> Technical Skills</a></li>
+          <li><a href="#education" class="mobile-nav-link"><i class="fa-solid fa-graduation-cap"></i> Education</a></li>
+          <li><a href="#projects" class="mobile-nav-link"><i class="fa-solid fa-laptop-code"></i> Projects</a></li>
+          <li><a href="#certifications" class="mobile-nav-link"><i class="fa-solid fa-award"></i> Certifications</a></li>
+          <li><a href="#profiles" class="mobile-nav-link"><i class="fa-solid fa-brands fa-github"></i> Coding Handles</a></li>
+          <li><a href="#resume" class="mobile-nav-link"><i class="fa-solid fa-file-lines"></i> Resume</a></li>
+          <li><a href="#contact" class="mobile-nav-link"><i class="fa-solid fa-paper-plane"></i> Contact</a></li>
+        </ul>
+        <div class="mobile-menu-footer">
+          <a href="assets/Aryan-Kumar-Resume.pdf" download="Aryan-Kumar-Resume.pdf" class="btn btn-primary btn-block">
+            <i class="fa-solid fa-download"></i> Download Resume
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="mobile-overlay" id="mobile-overlay" aria-hidden="true"></div>
+  </header>
+
+  <!-- ============================================== -->
+  <!-- MAIN CONTENT                                   -->
+  <!-- ============================================== -->
+  <main id="main-content">
+
+    <!-- -------------------------------------------- -->
+    <!-- 1. HERO SECTION (Recruiter Focused)          -->
+    <!-- -------------------------------------------- -->
+    <section id="hero" class="hero-section">
+      <div class="hero-mesh-bg" aria-hidden="true"></div>
+
+      <div class="container hero-grid">
+        <!-- Hero Content Column -->
+        <div class="hero-content reveal-fade">
+          <div class="status-badge">
+            <span class="status-dot"></span>
+            <span class="status-text">Seeking Software Development Internships &amp; Roles</span>
+          </div>
+
+          <h1 class="hero-title">
+            <span class="hero-greeting">Hi, I'm</span>
+            <span class="hero-name gradient-text">Aryan Kumar</span>
+          </h1>
+
+          <p class="hero-role">
+            <span class="role-badge">B.Tech CSE Student</span>
+            <span class="role-divider">/</span>
+            <span class="role-highlight">Aspiring Software Developer</span>
+          </p>
+
+          <p class="hero-intro">
+            I am a 3rd-year Computer Science &amp; Engineering student passionate about software development, problem solving, artificial intelligence, machine learning, and building practical technology solutions.
+          </p>
+
+          <!-- Recruiter Quick Scan Summary Bar -->
+          <div class="recruiter-quick-specs">
+            <div class="spec-item">
+              <span class="spec-label">Education</span>
+              <span class="spec-val">B.Tech CSE (3rd Year)</span>
+            </div>
+            <div class="spec-item">
+              <span class="spec-label">Primary Languages</span>
+              <span class="spec-val">C++, Python, Java, JS</span>
+            </div>
+            <div class="spec-item">
+              <span class="spec-label">Core Focus</span>
+              <span class="spec-val">DSA &bull; Web &bull; AI/ML</span>
+            </div>
+          </div>
+
+          <!-- Hero Action Buttons -->
+          <div class="hero-cta-group">
+            <a href="#projects" class="btn btn-primary">
+              <span>View Projects</span>
+              <i class="fa-solid fa-arrow-down" aria-hidden="true"></i>
+            </a>
+            <a href="assets/Aryan-Kumar-Resume.pdf" download="Aryan-Kumar-Resume.pdf" class="btn btn-secondary">
+              <i class="fa-solid fa-file-arrow-down" aria-hidden="true"></i>
+              <span>Download Resume</span>
+            </a>
+            <a href="#contact" class="btn btn-ghost">
+              <i class="fa-regular fa-envelope" aria-hidden="true"></i>
+              <span>Contact Me</span>
+            </a>
+          </div>
+
+          <!-- Social Links & 1-Click Email Copy -->
+          <div class="hero-socials">
+            <span class="socials-label">Connect:</span>
+            <!-- EDITABLE: Replace with your actual GitHub username -->
+            <a href="https://github.com/your-username" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="GitHub Profile">
+              <i class="fa-brands fa-github"></i>
+            </a>
+            <!-- EDITABLE: Replace with your actual LinkedIn profile URL -->
+            <a href="https://linkedin.com/in/your-username" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="LinkedIn Profile">
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+            <!-- EDITABLE: Replace with your actual email address -->
+            <a href="mailto:aryan.kumar.placeholder@email.com?subject=Software%20Development%20Internship%20Inquiry%20-%20Aryan%20Kumar" class="social-icon-btn" aria-label="Send an Email">
+              <i class="fa-solid fa-envelope"></i>
+            </a>
+            <!-- Quick Copy Email Button -->
+            <button type="button" class="copy-email-btn" id="hero-copy-email-btn" title="Copy email address" aria-label="Copy email address">
+              <i class="fa-regular fa-copy"></i>
+              <span>Copy Email</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Hero Developer Terminal / Visual (Realistic Student CLI Card) -->
+        <div class="hero-visual reveal-fade delay-1">
+          <div class="code-terminal-card">
+            <!-- Terminal Header with Interactive Tabs -->
+            <div class="terminal-header">
+              <div class="terminal-dots">
+                <span class="dot dot-red" title="Close"></span>
+                <span class="dot dot-yellow" title="Minimize"></span>
+                <span class="dot dot-green" title="Maximize"></span>
+              </div>
+              <div class="terminal-tabs">
+                <button type="button" class="term-tab-btn active" data-tab="status">
+                  <i class="fa-solid fa-terminal"></i>
+                  <span>aryan.sh</span>
+                </button>
+                <button type="button" class="term-tab-btn" data-tab="typescript">
+                  <i class="fa-brands fa-js"></i>
+                  <span>profile.ts</span>
+                </button>
+              </div>
+              <button class="terminal-copy-btn" id="copy-code-btn" type="button" aria-label="Copy code snippet" title="Copy snippet">
+                <i class="fa-regular fa-copy"></i>
+                <span class="copy-tooltip">Copied!</span>
+              </button>
+            </div>
+
+            <!-- Tab 1: Interactive Terminal CLI View -->
+            <div class="terminal-body tab-content active" id="tab-status">
+              <div class="cli-output">
+                <p class="cli-cmd"><span class="cli-prompt">$</span> aryan --status</p>
+                <p class="cli-res"><span class="cli-key">Candidate:</span> Aryan Kumar</p>
+                <p class="cli-res"><span class="cli-key">Education:</span> B.Tech CSE (3rd Year Ongoing)</p>
+                <p class="cli-res"><span class="cli-key">Target Role:</span> Software Development Intern (Summer/Fall)</p>
+                <p class="cli-res"><span class="cli-key">Core Stack:</span> C++, Python, Java, JavaScript, MySQL</p>
+                <p class="cli-res"><span class="cli-key">Foundations:</span> Data Structures, Algorithms, DBMS, OOP</p>
+                <p class="cli-res"><span class="cli-key">Availability:</span> <span class="cli-highlight">Immediate / Summer &bull; Remote or On-Site</span></p>
+                <p class="cli-cmd mt-2"><span class="cli-prompt">$</span> git log -1 --pretty=format:"%s"</p>
+                <p class="cli-res cli-commit">"Ready to contribute, learn, and write production-grade code."</p>
+                <p class="cli-cmd mt-2"><span class="cli-prompt">$</span> <span class="cli-cursor">_</span></p>
+              </div>
+            </div>
+
+            <!-- Tab 2: TypeScript Code Definition View -->
+            <div class="terminal-body tab-content" id="tab-typescript">
+              <pre><code><span class="code-keyword">const</span> <span class="code-var">candidate</span> = {
+  <span class="code-prop">name</span>: <span class="code-string">"Aryan Kumar"</span>,
+  <span class="code-prop">role</span>: <span class="code-string">"B.Tech CSE Student &bull; 3rd Year"</span>,
+  <span class="code-prop">coreSkills</span>: [<span class="code-string">"C++"</span>, <span class="code-string">"Python"</span>, <span class="code-string">"Java"</span>, <span class="code-string">"JavaScript"</span>, <span class="code-string">"MySQL"</span>],
+  <span class="code-prop">focus</span>: [<span class="code-string">"DSA"</span>, <span class="code-string">"Web Development"</span>, <span class="code-string">"AI/ML"</span>],
+  <span class="code-prop">openForInternships</span>: <span class="code-boolean">true</span>
+};
+
+<span class="code-comment">// Ready to solve practical engineering challenges</span>
+<span class="code-func">console</span>.<span class="code-method">log</span>(<span class="code-string">"Let's build reliable software together!"</span>);</code></pre>
+            </div>
+
+            <!-- Terminal Footer -->
+            <div class="terminal-footer">
+              <span class="term-status-item"><i class="fa-solid fa-code-branch"></i> main</span>
+              <span class="term-status-item"><i class="fa-solid fa-circle-check"></i> Clean Code</span>
+              <span class="term-status-item status-indicator"><span class="pulse-dot"></span> SDE Candidate</span>
+            </div>
+          </div>
+
+          <!-- Subtle Floating Info Badges -->
+          <div class="floating-badge badge-top-right">
+            <i class="fa-solid fa-graduation-cap"></i>
+            <span>3rd Year CSE</span>
+          </div>
+          <div class="floating-badge badge-bottom-left">
+            <i class="fa-solid fa-terminal"></i>
+            <span>Problem Solver</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- -------------------------------------------- -->
+    <!-- 2. ABOUT ME SECTION                          -->
+    <!-- -------------------------------------------- -->
+    <section id="about" class="about-section section-padding">
+      <div class="container">
+        <div class="section-header text-center reveal-fade">
+          <span class="section-tag">01 // PROFILE OVERVIEW</span>
+          <h2 class="section-title">About Me</h2>
+          <div class="section-line"></div>
+          <p class="section-subtitle">
+            A dedicated 3rd-year engineering student building deep technical competencies in core computer science, software design, and applied technologies.
+          </p>
+        </div>
+
+        <div class="about-grid">
+          <!-- About Narrative -->
+          <div class="about-text-card card reveal-fade">
+            <h3 class="about-heading">
+              Engineering Foundations &amp; Practical Problem Solving
+            </h3>
+            <p>
+              I am a 3rd-year Computer Science &amp; Engineering student who is deeply enthusiastic about software development, problem solving, artificial intelligence, machine learning, and building practical technology solutions.
+            </p>
+            <p>
+              Throughout my engineering coursework, I have focused on understanding how software works from first principles—from algorithm efficiency and memory considerations in C/C++ to building structured relational database models and implementing machine learning pipelines in Python.
+            </p>
+            <p>
+              I am actively developing hands-on, practical skills across:
+            </p>
+
+            <!-- Focus List Bullets -->
+            <ul class="about-focus-list">
+              <li><i class="fa-solid fa-check"></i> <strong>Programming:</strong> Writing structured, clean code in C, C++, Python, and Java.</li>
+              <li><i class="fa-solid fa-check"></i> <strong>Data Structures &amp; Algorithms:</strong> Analytical thinking, asymptotic complexity analysis (Big-O), and systematic problem decomposition.</li>
+              <li><i class="fa-solid fa-check"></i> <strong>Web Development:</strong> Crafting responsive, accessible, standards-compliant user interfaces with HTML, CSS, and modern JavaScript.</li>
+              <li><i class="fa-solid fa-check"></i> <strong>Database Management:</strong> Designing normalized relational schemas, handling constraints, and executing optimized SQL queries.</li>
+              <li><i class="fa-solid fa-check"></i> <strong>Artificial Intelligence &amp; Machine Learning:</strong> Tabular data preprocessing, statistical exploration, and scikit-learn predictive pipelines.</li>
+              <li><i class="fa-solid fa-check"></i> <strong>Software Development:</strong> Git version control workflows, modular architecture, and code maintainability.</li>
+            </ul>
+
+            <p>
+              As a pre-final year student, I am actively seeking a <strong>Software Development Internship</strong> or engineering placement where I can apply my foundation, learn production best practices, and contribute meaningfully to engineering teams.
+            </p>
+          </div>
+
+          <!-- 4 Highlight Cards Required -->
+          <div class="about-cards-column reveal-fade delay-1">
+            <div class="info-card">
+              <div class="info-card-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+              <div class="info-card-content">
+                <span class="info-card-label">Degree Program</span>
+                <h4 class="info-card-title">B.Tech CSE</h4>
+                <p class="info-card-desc">Computer Science &amp; Engineering degree building theoretical &amp; practical foundations.</p>
+              </div>
+            </div>
+
+            <div class="info-card">
+              <div class="info-card-icon"><i class="fa-solid fa-book-bookmark"></i></div>
+              <div class="info-card-content">
+                <span class="info-card-label">Academic Status</span>
+                <h4 class="info-card-title">3rd Year</h4>
+                <p class="info-card-desc">Pre-final year student actively training on algorithmic problem solving &amp; projects.</p>
+              </div>
+            </div>
+
+            <div class="info-card">
+              <div class="info-card-icon"><i class="fa-solid fa-laptop-code"></i></div>
+              <div class="info-card-content">
+                <span class="info-card-label">Target Role</span>
+                <h4 class="info-card-title">Software Development</h4>
+                <p class="info-card-desc">Focusing on core software engineering, algorithms, web applications, and backend systems.</p>
+              </div>
+            </div>
+
+            <div class="info-card highlight-card">
+              <div class="info-card-icon"><i class="fa-solid fa-rocket"></i></div>
+              <div class="info-card-content">
+                <span class="info-card-label">Current Availability</span>
+                <h4 class="info-card-title">Open to Opportunities</h4>
+                <p class="info-card-desc">Ready for internship roles, placement opportunities, and collaborative technical projects.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- -------------------------------------------- -->
+    <!-- 3. SKILLS SECTION (Recruiter Categorized)    -->
+    <!-- -------------------------------------------- -->
+    <section id="skills" class="skills-section section-padding">
+      <div class="container">
+        <div class="section-header text-center reveal-fade">
+          <span class="section-tag">02 // TECHNICAL TOOLKIT</span>
+          <h2 class="section-title">Technical Skills</h2>
+          <div class="section-line"></div>
+          <p class="section-subtitle">
+            Categorized technical capabilities acquired through engineering coursework, programming labs, and practical implementation.
+          </p>
+        </div>
+
+        <!-- 6 Skill Categories Required (No fake % skill bars) -->
+        <div class="skills-grid">
+          <!-- 1. Programming Languages -->
+          <div class="skill-category-card card reveal-fade">
+            <div class="category-header">
+              <div class="category-icon"><i class="fa-solid fa-code"></i></div>
+              <div>
+                <h3 class="category-title">Programming</h3>
+                <span class="category-sub">Core languages for logic &amp; algorithms</span>
+              </div>
+            </div>
+            <div class="skill-tags">
+              <div class="skill-tag">
+                <i class="fa-solid fa-file-code"></i>
+                <div class="tag-meta">
+                  <span class="tag-title">C</span>
+                  <span class="tag-sub">Systems &amp; Basics</span>
+                </div>
+              </div>
+              <div class="skill-tag">
+                <i class="fa-solid fa-file-code"></i>
+                <div class="tag-meta">
+                  <span class="tag-title">C++</span>
+                  <span class="tag-sub">DSA &amp; OOP</span>
+                </div>
+              </div>
+              <div class="skill-tag">
+                <i class="fa-brands fa-python"></i>
+                <div class="tag-meta">
+                  <span class="tag-title">Python</span>
+                  <span class="tag-sub">Scripting &amp; ML</span>
+                </div>
+              </div>
+              <div class="skill-tag">
+                <i class="fa-brands fa-java"></i>
+                <div class="tag-meta">
+                  <span class="tag-title">Java</span>
+                  <span class="tag-sub">OOP Architecture</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 2. Web Development -->
+          <div class="skill-category-card card reveal-fade delay-1">
+            <div class="category-header">
+              <div class="category-icon"><i class="fa-solid fa-globe"></i></div>
+              <div>
+                <h3 class="category-title">Web Development</h3>
+                <span class="category-sub">Responsive, standards-compliant UI</span>
+              </div>
+            </div>
+            <div class="skill-tags">
+              <div class="skill-tag">
+                <i class="fa-brands fa-html5"></i>
+                <div class="tag-meta">
+                  <span class="tag-title">HTML</span>
+                  <span class="tag-sub">Semantic Structure</span>
+                </div>
+              </div>
+              <div class="skill-tag">
+                <i class="fa-brands fa-css3-alt"></i>
+                <div class="tag-meta">
+                  <span class="tag-title">CSS</span>
+                  <span class="tag-sub">Flexbox &amp; Grid</span>
+                </div>
+              </div>
+              <div class="skill-tag">
+                <i class="fa-brands fa-js"></i>
+                <div class="tag-meta">
+                  <span class="tag-title">JavaScript</span>
+                  <span class="tag-sub">ES6+ &amp; DOM</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 3. Database -->
+          <div class="skill-category-card card reveal-fade delay-2">
+            <div class="category-header">
+              <div class="category-icon"><i class="fa-solid fa-database"></i></div>
+              <div>
+                <h3 class="category-title">Database</h3>
+                <span class="category-sub">Relational modeling &amp; querying</span>
+              </div>
+            </div>
+            <div class="skill-tags">
+              <div class="skill-tag">
+                <i class="fa-solid fa-database"></i>
+                <div class="tag-meta">
+                  <span class="tag-title">MySQL</span>
+                  <span class="tag-sub">Relational DBMS</span>
+                </div>
+              </div>
+              <div class="skill-tag">
+                <i class="fa-solid fa-table"></i>
+                <div class="tag-meta">
+                  <span class="tag-title">SQL</span>
+                  <span class="tag-sub">Joins &amp; Queries</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 4. Computer Science Fundamentals -->
+          <div class="skill-category-card card reveal-fade">
+            <div class="category-header">
+              <div class="category-icon"><i class="fa-solid fa-network-wired"></i></div>
+              <div>
+                <h3 class="category-title">Computer Science</h3>
+                <span class="category-sub">Core academic disciplines</span>
+              </div>
+            </div>
+            <div class="skill-tags">
+              <div class="skill-tag">
+                <i class="fa-solid fa-diagram-project"></i>
+                <div class="tag-meta">
+                  <span class="tag-title">DSA</span>
+                  <span class="tag-sub">Data Structures &amp; Algos</span>
+                </div>
+              </div>
+              <div class="skill-tag">
+                <i class="fa-solid fa-server"></i>
+                <div class="tag-meta">
+                  <span class="tag-title">DBMS</span>
+                  <span class="tag-sub">Database Management</span>
+                </div>
+              </div>
+              <div class="skill-tag">
+                <i class="fa-solid fa-microchip"></i>
+                <div class="tag-meta">
+                  <span class="tag-title">Operating Systems</span>
+                  <span class="tag-sub">Processes &amp; Threads</span>
+                </div>
+              </div>
+              <div class="skill-tag">
+                <i class="fa-solid fa-wifi"></i>
+                <div class="tag-meta">
+                  <span class="tag-title">Computer Networks</span>
+                  <span class="tag-sub">TCP/IP &amp; Protocols</span>
+                </div>
+              </div>
+              <div class="skill-tag">
+                <i class="fa-solid fa-cubes"></i>
+                <div class="tag-meta">
+                  <span class="tag-title">OOP</span>
+                  <span class="tag-sub">Polymorphism &amp; Encapsulation</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 5. AI / ML -->
+          <div class="skill-category-card card reveal-fade delay-1">
+            <div class="category-header">
+              <div class="category-icon"><i class="fa-solid fa-brain"></i></div>
+              <div>
+                <h3 class="category-title">AI / ML</h3>
+                <span class="category-sub">Data exploration &amp; predictive models</span>
+              </div>
+            </div>
+            <div class="skill-tags">
+              <div class="skill-tag">
+                <i class="fa-solid fa-robot"></i>
+                <div class="tag-meta">
+                  <span class="tag-title">Machine Learning</span>
+                  <span class="tag-sub">Supervised Models</span>
+                </div>
+              </div>
+              <div class="skill-tag">
+                <i class="fa-solid fa-chart-line"></i>
+                <div class="tag-meta">
+                  <span class="tag-title">Data Analysis</span>
+                  <span class="tag-sub">Exploratory Insights</span>
+                </div>
+              </div>
+              <div class="skill-tag">
+                <i class="fa-solid fa-table-cells"></i>
+                <div class="tag-meta">
+                  <span class="tag-title">Pandas</span>
+                  <span class="tag-sub">Dataframes &amp; Cleaning</span>
+                </div>
+              </div>
+              <div class="skill-tag">
+                <i class="fa-solid fa-calculator"></i>
+                <div class="tag-meta">
+                  <span class="tag-title">NumPy</span>
+                  <span class="tag-sub">Vectorized Arrays</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 6. Tools -->
+          <div class="skill-category-card card reveal-fade delay-2">
+            <div class="category-header">
+              <div class="category-icon"><i class="fa-solid fa-screwdriver-wrench"></i></div>
+              <div>
+                <h3 class="category-title">Tools</h3>
+                <span class="category-sub">Version control &amp; environments</span>
+              </div>
+            </div>
+            <div class="skill-tags">
+              <div class="skill-tag">
+                <i class="fa-brands fa-git-alt"></i>
+                <div class="tag-meta">
+                  <span class="tag-title">Git</span>
+                  <span class="tag-sub">Branching &amp; Commits</span>
+                </div>
+              </div>
+              <div class="skill-tag">
+                <i class="fa-brands fa-github"></i>
+                <div class="tag-meta">
+                  <span class="tag-title">GitHub</span>
+                  <span class="tag-sub">Collaboration</span>
+                </div>
+              </div>
+              <div class="skill-tag">
+                <i class="fa-solid fa-laptop-file"></i>
+                <div class="tag-meta">
+                  <span class="tag-title">VS Code</span>
+                  <span class="tag-sub">Editor &amp; Debugging</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- -------------------------------------------- -->
+    <!-- 4. EDUCATION SECTION                         -->
+    <!-- -------------------------------------------- -->
+    <section id="education" class="education-section section-padding">
+      <div class="container">
+        <div class="section-header text-center reveal-fade">
+          <span class="section-tag">03 // ACADEMIC BACKGROUND</span>
+          <h2 class="section-title">Education</h2>
+          <div class="section-line"></div>
+          <p class="section-subtitle">
+            Formal engineering education providing a rigorous theoretical foundation and practical laboratory problem solving.
+          </p>
+        </div>
+
+        <div class="timeline-wrapper">
+          <div class="timeline">
+            <!-- Timeline Item 1: B.Tech CSE (Current Education) -->
+            <div class="timeline-item reveal-fade">
+              <div class="timeline-marker">
+                <i class="fa-solid fa-graduation-cap"></i>
+              </div>
+              <div class="timeline-content card">
+                <div class="timeline-badge-row">
+                  <span class="timeline-badge badge-active"><span class="pulse-dot"></span> Current Education &bull; 3rd Year Ongoing</span>
+                  <span class="timeline-date"><i class="fa-regular fa-calendar"></i> Pre-Final Year</span>
+                </div>
+                <h3 class="timeline-degree">B.Tech – Computer Science &amp; Engineering</h3>
+                
+                <!-- EDITABLE: Replace with your actual College/University Name and Graduation Year -->
+                <h4 class="timeline-institution">
+                  <i class="fa-solid fa-building-columns"></i>
+                  <span>[College/University Name]</span>
+                </h4>
+                <p class="timeline-expected">
+                  <i class="fa-regular fa-clock"></i> Expected Graduation: <strong>[Expected Graduation Year]</strong>
+                </p>
+
+                <p class="timeline-description">
+                  Pursuing a comprehensive engineering curriculum covering computational theory, algorithmic complexity, database design, software engineering lifecycle, and systems programming.
+                </p>
+
+                <div class="timeline-highlights">
+                  <span class="highlight-title">Key Core Coursework Completed:</span>
+                  <div class="course-pills">
+                    <span class="course-pill"><i class="fa-solid fa-check"></i> Data Structures &amp; Algorithms</span>
+                    <span class="course-pill"><i class="fa-solid fa-check"></i> Database Management Systems (DBMS)</span>
+                    <span class="course-pill"><i class="fa-solid fa-check"></i> Operating Systems</span>
+                    <span class="course-pill"><i class="fa-solid fa-check"></i> Computer Networks</span>
+                    <span class="course-pill"><i class="fa-solid fa-check"></i> Object-Oriented Programming (OOP)</span>
+                    <span class="course-pill"><i class="fa-solid fa-check"></i> Software Engineering Principles</span>
+                  </div>
+                </div>
+
+                <div class="placeholder-note">
+                  <i class="fa-solid fa-pen-to-square"></i>
+                  <span><strong>Easy Edit:</strong> Replace <code>[College/University Name]</code> and <code>[Expected Graduation Year]</code> in <code>index.html</code> with your college details.</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Timeline Item 2: Senior Secondary (Editable Placeholder) -->
+            <div class="timeline-item reveal-fade delay-1">
+              <div class="timeline-marker">
+                <i class="fa-solid fa-school"></i>
+              </div>
+              <div class="timeline-content card">
+                <div class="timeline-badge-row">
+                  <span class="timeline-badge">Senior Secondary (12th Grade)</span>
+                  <span class="timeline-date"><i class="fa-regular fa-calendar"></i> [Passing Year]</span>
+                </div>
+                <h3 class="timeline-degree">Higher Secondary Education (12th Standard)</h3>
+                
+                <!-- EDITABLE: Replace with your actual School/Junior College Name -->
+                <h4 class="timeline-institution">
+                  <i class="fa-solid fa-building-columns"></i>
+                  <span>[School/Junior College Name]</span>
+                </h4>
+                <p class="timeline-expected">
+                  <i class="fa-solid fa-book-open"></i> Stream: <strong>Science (Physics, Chemistry, Mathematics / CS)</strong>
+                </p>
+
+                <p class="timeline-description">
+                  Developed foundational mathematical aptitude, analytical problem-solving abilities, and computational basics that underpin computer science fundamentals.
+                </p>
+
+                <div class="placeholder-note">
+                  <i class="fa-solid fa-pen-to-square"></i>
+                  <span><strong>Easy Edit:</strong> Update school name, board, and completion year anytime.</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- -------------------------------------------- -->
+    <!-- 5. PROJECTS SECTION (Recruiter Focused)      -->
+    <!-- -------------------------------------------- -->
+    <section id="projects" class="projects-section section-padding">
+      <div class="container">
+        <div class="section-header text-center reveal-fade">
+          <span class="section-tag">04 // PRACTICAL IMPLEMENTATIONS</span>
+          <h2 class="section-title">Featured Projects</h2>
+          <div class="section-line"></div>
+          <p class="section-subtitle">
+            Realistic student-level projects reflecting practical development skills, architectural understanding, and clean coding standards.
+          </p>
+          <div class="project-disclaimer">
+            <i class="fa-solid fa-circle-info"></i>
+            <span>All projects are realistic student implementations with clear placeholders for your GitHub repositories and live deployments.</span>
+          </div>
+        </div>
+
+        <!-- Project Filter Buttons -->
+        <div class="projects-filter-bar reveal-fade">
+          <button type="button" class="filter-btn active" data-filter="all">All Projects (5)</button>
+          <button type="button" class="filter-btn" data-filter="web">Web &amp; Software (2)</button>
+          <button type="button" class="filter-btn" data-filter="ml">AI &amp; Data Science (3)</button>
+        </div>
+
+        <!-- Projects Grid -->
+        <div class="projects-grid" id="projects-grid">
+
+          <!-- PROJECT 1: Student Management System -->
+          <!-- EDITABLE: Replace with your actual project details and links -->
+          <div class="project-card card reveal-fade" data-category="web">
+            <div class="project-card-top">
+              <span class="project-type-tag">Web &amp; Database</span>
+              <span class="project-status-pill"><i class="fa-solid fa-check"></i> Completed</span>
+            </div>
+            
+            <h3 class="project-title">Student Management System</h3>
+            <p class="project-description">
+              A comprehensive web portal designed to streamline student registration, course enrollment, attendance records, and automated GPA/grade computation through relational databases.
+            </p>
+
+            <div class="project-engineering-box">
+              <span class="eng-box-title">Key Engineering Decisions:</span>
+              <ul class="project-features">
+                <li><i class="fa-solid fa-angle-right"></i> Implemented full CRUD operations for student and course records.</li>
+                <li><i class="fa-solid fa-angle-right"></i> Designed normalized relational schemas in MySQL with foreign key integrity.</li>
+                <li><i class="fa-solid fa-angle-right"></i> Built responsive client-side UI with real-time form validation.</li>
+              </ul>
+            </div>
+
+            <div class="project-tech-stack">
+              <span class="tech-tag">HTML</span>
+              <span class="tech-tag">CSS</span>
+              <span class="tech-tag">JavaScript</span>
+              <span class="tech-tag">MySQL</span>
+            </div>
+
+            <div class="project-card-actions">
+              <!-- EDITABLE: Update repository URL -->
+              <a href="https://github.com/your-username/student-management-system" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-secondary project-btn">
+                <i class="fa-brands fa-github"></i>
+                <span>GitHub Code</span>
+              </a>
+              <!-- Modal trigger -->
+              <button type="button" class="btn btn-sm btn-primary project-btn preview-project-btn" 
+                data-project="Student Management System" 
+                data-category="Web & Database Application"
+                data-description="A full-featured student record and academic grading portal designed to eliminate manual spreadsheet tracking. Implements structured MySQL relational tables with foreign keys and responsive client-side interfaces."
+                data-highlights="Full CRUD operations for students & courses;Normalized relational schema design with foreign key constraints;Client-side validation preventing invalid enrollment states;Fast tabular searching and filtering"
+                data-tech="HTML, CSS, JavaScript, MySQL"
+                data-repo="https://github.com/your-username/student-management-system">
+                <i class="fa-solid fa-layer-group"></i>
+                <span>Project Details</span>
+              </button>
+            </div>
+          </div>
+
+          <!-- PROJECT 2: Machine Learning Prediction System -->
+          <!-- EDITABLE: Replace with your actual project details and links -->
+          <div class="project-card card reveal-fade delay-1" data-category="ml">
+            <div class="project-card-top">
+              <span class="project-type-tag">AI / Machine Learning</span>
+              <span class="project-status-pill"><i class="fa-solid fa-check"></i> Completed</span>
+            </div>
+            
+            <h3 class="project-title">Machine Learning Prediction System</h3>
+            <p class="project-description">
+              An end-to-end predictive analysis workflow that trains and validates machine learning models on structured tabular datasets, incorporating exploratory data analysis and feature scaling.
+            </p>
+
+            <div class="project-engineering-box">
+              <span class="eng-box-title">Key Engineering Decisions:</span>
+              <ul class="project-features">
+                <li><i class="fa-solid fa-angle-right"></i> Built data preprocessing pipeline handling missing data and outliers.</li>
+                <li><i class="fa-solid fa-angle-right"></i> Applied Scikit-learn algorithms with k-fold cross-validation.</li>
+                <li><i class="fa-solid fa-angle-right"></i> Evaluated performance using Accuracy, Precision, Recall, and F1-score.</li>
+              </ul>
+            </div>
+
+            <div class="project-tech-stack">
+              <span class="tech-tag">Python</span>
+              <span class="tech-tag">Pandas</span>
+              <span class="tech-tag">NumPy</span>
+              <span class="tech-tag">Scikit-learn</span>
+            </div>
+
+            <div class="project-card-actions">
+              <a href="https://github.com/your-username/ml-prediction-system" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-secondary project-btn">
+                <i class="fa-brands fa-github"></i>
+                <span>GitHub Code</span>
+              </a>
+              <button type="button" class="btn btn-sm btn-primary project-btn preview-project-btn" 
+                data-project="Machine Learning Prediction System" 
+                data-category="Predictive Modeling Pipeline"
+                data-description="An exploratory and predictive analysis project structured around supervised learning on real-world datasets. Encompasses automated data cleaning, feature normalization, and benchmarking multiple classifiers."
+                data-highlights="Automated missing value imputation and one-hot encoding;Feature standardization using Scikit-learn StandardScaler;Cross-validated model evaluation minimizing variance;Benchmarked Random Forest vs Logistic Regression"
+                data-tech="Python, Pandas, NumPy, Scikit-learn"
+                data-repo="https://github.com/your-username/ml-prediction-system">
+                <i class="fa-solid fa-layer-group"></i>
+                <span>Project Details</span>
+              </button>
+            </div>
+          </div>
+
+          <!-- PROJECT 3: Personal Developer Portfolio -->
+          <!-- EDITABLE: Replace with your actual project details and links -->
+          <div class="project-card card reveal-fade delay-2" data-category="web">
+            <div class="project-card-top">
+              <span class="project-type-tag">Frontend &amp; Responsive</span>
+              <span class="project-status-pill highlight-pill"><i class="fa-solid fa-star"></i> Featured</span>
+            </div>
+            
+            <h3 class="project-title">Personal Developer Portfolio</h3>
+            <p class="project-description">
+              A high-performance dark developer portfolio crafted with vanilla web standards, modern glassmorphic accents, zero dependencies, and instant GitHub Pages deployment.
+            </p>
+
+            <div class="project-engineering-box">
+              <span class="eng-box-title">Key Engineering Decisions:</span>
+              <ul class="project-features">
+                <li><i class="fa-solid fa-angle-right"></i> Semantic HTML5 architecture and accessible keyboard navigation.</li>
+                <li><i class="fa-solid fa-angle-right"></i> Pure CSS3 with custom variables, smooth transitions, and mobile-first layouts.</li>
+                <li><i class="fa-solid fa-angle-right"></i> Dynamic IntersectionObserver for active scroll tracking and reveal animations.</li>
+              </ul>
+            </div>
+
+            <div class="project-tech-stack">
+              <span class="tech-tag">HTML5</span>
+              <span class="tech-tag">CSS3</span>
+              <span class="tech-tag">JavaScript</span>
+              <span class="tech-tag">GitHub Pages</span>
+            </div>
+
+            <div class="project-card-actions">
+              <a href="https://github.com/your-username/portfolio" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-secondary project-btn">
+                <i class="fa-brands fa-github"></i>
+                <span>GitHub Code</span>
+              </a>
+              <button type="button" class="btn btn-sm btn-primary project-btn preview-project-btn" 
+                data-project="Personal Developer Portfolio" 
+                data-category="Modern Web Engineering"
+                data-description="Engineered to provide software engineering recruiters with an instant, frictionless, and impressive portfolio experience. Contains zero runtime dependencies or heavy JS frameworks."
+                data-highlights="100% pure vanilla stack: HTML5, CSS3, ES6+ JavaScript;Zero build configuration required for GitHub Pages;Full mobile responsiveness across all device sizes;Accessible semantic structure and keyboard navigation"
+                data-tech="HTML5, CSS3, JavaScript, GitHub Pages"
+                data-repo="https://github.com/your-username/portfolio">
+                <i class="fa-solid fa-layer-group"></i>
+                <span>Project Details</span>
+              </button>
+            </div>
+          </div>
+
+          <!-- PROJECT 4: Data Analysis Dashboard -->
+          <!-- EDITABLE: Replace with your actual project details and links -->
+          <div class="project-card card reveal-fade" data-category="ml">
+            <div class="project-card-top">
+              <span class="project-type-tag">Data Visualization</span>
+              <span class="project-status-pill"><i class="fa-solid fa-check"></i> Completed</span>
+            </div>
+            
+            <h3 class="project-title">Data Analysis Dashboard</h3>
+            <p class="project-description">
+              An exploratory data analysis pipeline that cleans real-world tabular data, computes statistical distributions, and plots multi-variable correlation charts to extract actionable insights.
+            </p>
+
+            <div class="project-engineering-box">
+              <span class="eng-box-title">Key Engineering Decisions:</span>
+              <ul class="project-features">
+                <li><i class="fa-solid fa-angle-right"></i> Automated data parsing and statistical distribution summaries.</li>
+                <li><i class="fa-solid fa-angle-right"></i> Matplotlib charts: histograms, heatmaps, and scatter plots.</li>
+                <li><i class="fa-solid fa-angle-right"></i> Identified outliers, trend patterns, and variance correlations.</li>
+              </ul>
+            </div>
+
+            <div class="project-tech-stack">
+              <span class="tech-tag">Python</span>
+              <span class="tech-tag">Pandas</span>
+              <span class="tech-tag">Matplotlib</span>
+            </div>
+
+            <div class="project-card-actions">
+              <a href="https://github.com/your-username/data-analysis-dashboard" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-secondary project-btn">
+                <i class="fa-brands fa-github"></i>
+                <span>GitHub Code</span>
+              </a>
+              <button type="button" class="btn btn-sm btn-primary project-btn preview-project-btn" 
+                data-project="Data Analysis Dashboard" 
+                data-category="Statistical Data Exploration"
+                data-description="A Python-based exploratory data analysis suite engineered to uncover statistical insights, correlations, and trends from tabular CSV records."
+                data-highlights="Automated statistical distribution analysis (mean, median, standard deviation);Correlation matrix heatmap generation;Outlier detection and visualization with box plots;Exportable chart figures for analytical reporting"
+                data-tech="Python, Pandas, Matplotlib"
+                data-repo="https://github.com/your-username/data-analysis-dashboard">
+                <i class="fa-solid fa-layer-group"></i>
+                <span>Project Details</span>
+              </button>
+            </div>
+          </div>
+
+          <!-- PROJECT 5: AI / ML Based Project -->
+          <!-- EDITABLE: Replace with your actual project details and links -->
+          <div class="project-card card reveal-fade delay-1" data-category="ml">
+            <div class="project-card-top">
+              <span class="project-type-tag">Intelligent Systems</span>
+              <span class="project-status-pill"><i class="fa-solid fa-check"></i> Completed</span>
+            </div>
+            
+            <h3 class="project-title">AI/ML Classification Project</h3>
+            <p class="project-description">
+              A supervised learning classification system implementing machine learning algorithms to categorize multi-feature data samples, benchmarking accuracy against baseline models.
+            </p>
+
+            <div class="project-engineering-box">
+              <span class="eng-box-title">Key Engineering Decisions:</span>
+              <ul class="project-features">
+                <li><i class="fa-solid fa-angle-right"></i> Feature extraction and structured dataset preprocessing.</li>
+                <li><i class="fa-solid fa-angle-right"></i> Model training, validation split, and hyperparameter tuning.</li>
+                <li><i class="fa-solid fa-angle-right"></i> Evaluated precision-recall curves and confusion matrices.</li>
+              </ul>
+            </div>
+
+            <div class="project-tech-stack">
+              <span class="tech-tag">Python</span>
+              <span class="tech-tag">Machine Learning</span>
+              <span class="tech-tag">Scikit-learn</span>
+            </div>
+
+            <div class="project-card-actions">
+              <a href="https://github.com/your-username/ai-ml-project" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-secondary project-btn">
+                <i class="fa-brands fa-github"></i>
+                <span>GitHub Code</span>
+              </a>
+              <button type="button" class="btn btn-sm btn-primary project-btn preview-project-btn" 
+                data-project="AI/ML Classification Project" 
+                data-category="Supervised Machine Learning"
+                data-description="Supervised classification architecture designed to evaluate algorithmic accuracy and generalization capabilities across multi-feature sample classes."
+                data-highlights="Train/Validation/Test split with stratification;Hyperparameter experimentation on tree-based classifiers;Confusion matrix generation and error analysis;Precision, recall, and ROC-AUC performance metrics"
+                data-tech="Python, Machine Learning, Scikit-learn"
+                data-repo="https://github.com/your-username/ai-ml-project">
+                <i class="fa-solid fa-layer-group"></i>
+                <span>Project Details</span>
+              </button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- -------------------------------------------- -->
+    <!-- 6. CERTIFICATIONS & ACHIEVEMENTS             -->
+    <!-- -------------------------------------------- -->
+    <section id="certifications" class="certifications-section section-padding">
+      <div class="container">
+        <div class="section-header text-center reveal-fade">
+          <span class="section-tag">05 // CREDENTIALS &amp; RECOGNITION</span>
+          <h2 class="section-title">Certifications &amp; Achievements</h2>
+          <div class="section-line"></div>
+          <p class="section-subtitle">
+            Verified academic milestones, competitive coding contests, courses, and technical workshops.
+          </p>
+        </div>
+
+        <div class="certifications-grid">
+          <!-- Card 1: Certifications & Courses -->
+          <div class="cert-category-card card reveal-fade">
+            <div class="cert-card-header">
+              <div class="cert-icon-box"><i class="fa-solid fa-certificate"></i></div>
+              <div>
+                <h3 class="cert-category-title">Certifications &amp; Courses</h3>
+                <span class="cert-subtext">Verified learning credentials</span>
+              </div>
+            </div>
+
+            <ul class="cert-list">
+              <!-- EDITABLE: Replace with your actual certifications -->
+              <li class="cert-item">
+                <div class="cert-item-marker"><i class="fa-solid fa-award"></i></div>
+                <div class="cert-item-details">
+                  <h4 class="cert-name">[Programming / Data Structures Certification]</h4>
+                  <span class="cert-issuer">[Issuing Organization / Platform, e.g., Coursera / NPTEL / HackerRank]</span>
+                  <span class="cert-date">[Year / Issued Date]</span>
+                </div>
+              </li>
+              <li class="cert-item">
+                <div class="cert-item-marker"><i class="fa-solid fa-award"></i></div>
+                <div class="cert-item-details">
+                  <h4 class="cert-name">[Python / Machine Learning Course]</h4>
+                  <span class="cert-issuer">[Issuing Organization / Platform Placeholder]</span>
+                  <span class="cert-date">[Year / Issued Date]</span>
+                </div>
+              </li>
+              <li class="cert-item">
+                <div class="cert-item-marker"><i class="fa-solid fa-award"></i></div>
+                <div class="cert-item-details">
+                  <h4 class="cert-name">[Web Development Foundations]</h4>
+                  <span class="cert-issuer">[Issuing Organization / Platform Placeholder]</span>
+                  <span class="cert-date">[Year / Issued Date]</span>
+                </div>
+              </li>
+            </ul>
+
+            <div class="placeholder-tag">
+              <i class="fa-solid fa-pen-nib"></i> Editable Placeholders
+            </div>
+          </div>
+
+          <!-- Card 2: Hackathons & Coding Achievements -->
+          <div class="cert-category-card card reveal-fade delay-1">
+            <div class="cert-card-header">
+              <div class="cert-icon-box"><i class="fa-solid fa-trophy"></i></div>
+              <div>
+                <h3 class="cert-category-title">Hackathons &amp; Coding</h3>
+                <span class="cert-subtext">Competitive coding &amp; challenges</span>
+              </div>
+            </div>
+
+            <ul class="cert-list">
+              <!-- EDITABLE: Replace with your actual achievements -->
+              <li class="cert-item">
+                <div class="cert-item-marker"><i class="fa-solid fa-medal"></i></div>
+                <div class="cert-item-details">
+                  <h4 class="cert-name">[College / Inter-College Hackathon Participant]</h4>
+                  <span class="cert-issuer">[Hackathon Name / Organizing Institute]</span>
+                  <span class="cert-date">[Month, Year]</span>
+                </div>
+              </li>
+              <li class="cert-item">
+                <div class="cert-item-marker"><i class="fa-solid fa-code-commit"></i></div>
+                <div class="cert-item-details">
+                  <h4 class="cert-name">[Competitive Coding Milestone]</h4>
+                  <span class="cert-issuer">[Platform: LeetCode / CodeChef / HackerRank Contest]</span>
+                  <span class="cert-date">[Year]</span>
+                </div>
+              </li>
+              <li class="cert-item">
+                <div class="cert-item-marker"><i class="fa-solid fa-star"></i></div>
+                <div class="cert-item-details">
+                  <h4 class="cert-name">[Algorithmic Problem Solving Badge]</h4>
+                  <span class="cert-issuer">[Coding Platform Badge Achievement]</span>
+                  <span class="cert-date">[Year]</span>
+                </div>
+              </li>
+            </ul>
+
+            <div class="placeholder-tag">
+              <i class="fa-solid fa-pen-nib"></i> Editable Placeholders
+            </div>
+          </div>
+
+          <!-- Card 3: Workshops & Academic Milestones -->
+          <div class="cert-category-card card reveal-fade delay-2">
+            <div class="cert-card-header">
+              <div class="cert-icon-box"><i class="fa-solid fa-chalkboard-user"></i></div>
+              <div>
+                <h3 class="cert-category-title">Workshops &amp; Academic</h3>
+                <span class="cert-subtext">Technical seminars &amp; recognition</span>
+              </div>
+            </div>
+
+            <ul class="cert-list">
+              <!-- EDITABLE: Replace with your actual workshops and milestones -->
+              <li class="cert-item">
+                <div class="cert-item-marker"><i class="fa-solid fa-lightbulb"></i></div>
+                <div class="cert-item-details">
+                  <h4 class="cert-name">[Technical Workshop on Cloud / AI / Full Stack]</h4>
+                  <span class="cert-issuer">[Conducting Body / Department]</span>
+                  <span class="cert-date">[Year]</span>
+                </div>
+              </li>
+              <li class="cert-item">
+                <div class="cert-item-marker"><i class="fa-solid fa-book-open-reader"></i></div>
+                <div class="cert-item-details">
+                  <h4 class="cert-name">[Academic Subject Distinction / Recognition]</h4>
+                  <span class="cert-issuer">[Department of Computer Science &amp; Engineering]</span>
+                  <span class="cert-date">[Academic Year]</span>
+                </div>
+              </li>
+              <li class="cert-item">
+                <div class="cert-item-marker"><i class="fa-solid fa-users-gear"></i></div>
+                <div class="cert-item-details">
+                  <h4 class="cert-name">[Technical Club Member / Contributor]</h4>
+                  <span class="cert-issuer">[College Coding Society / Developer Club]</span>
+                  <span class="cert-date">[Ongoing]</span>
+                </div>
+              </li>
+            </ul>
+
+            <div class="placeholder-tag">
+              <i class="fa-solid fa-pen-nib"></i> Editable Placeholders
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- -------------------------------------------- -->
+    <!-- 7. CODING / DEVELOPER PROFILES               -->
+    <!-- -------------------------------------------- -->
+    <section id="profiles" class="profiles-section section-padding">
+      <div class="container">
+        <div class="section-header text-center reveal-fade">
+          <span class="section-tag">06 // CODING JOURNEY</span>
+          <h2 class="section-title">Developer &amp; Coding Handles</h2>
+          <div class="section-line"></div>
+          <p class="section-subtitle">
+            Platforms where I actively write code, solve algorithmic challenges, and collaborate on projects.
+          </p>
+        </div>
+
+        <div class="profiles-grid">
+          <!-- 1. LeetCode -->
+          <!-- EDITABLE: Replace with your actual LeetCode profile link -->
+          <div class="profile-card card reveal-fade highlight-profile">
+            <div class="profile-icon leetcode-icon">
+              <i class="fa-solid fa-code"></i>
+            </div>
+            <h3 class="profile-platform">LeetCode</h3>
+            <p class="profile-desc">
+              Data structures practice, algorithm optimization, arrays, strings, trees, and interview problem patterns.
+            </p>
+            <div class="profile-link-wrap">
+              <a href="https://leetcode.com/your-username" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline-glow profile-btn">
+                <span>View LeetCode</span>
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            </div>
+            <span class="profile-handle">leetcode.com/your-username</span>
+          </div>
+
+          <!-- 2. GitHub -->
+          <!-- EDITABLE: Replace with your actual GitHub profile link -->
+          <div class="profile-card card reveal-fade delay-1">
+            <div class="profile-icon git-icon">
+              <i class="fa-brands fa-github"></i>
+            </div>
+            <h3 class="profile-platform">GitHub</h3>
+            <p class="profile-desc">
+              Version-controlled project repositories, lab assignments, code commits, and open-source explorations.
+            </p>
+            <div class="profile-link-wrap">
+              <a href="https://github.com/your-username" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline-glow profile-btn">
+                <span>View GitHub</span>
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            </div>
+            <span class="profile-handle">github.com/your-username</span>
+          </div>
+
+          <!-- 3. LinkedIn -->
+          <!-- EDITABLE: Replace with your actual LinkedIn profile link -->
+          <div class="profile-card card reveal-fade delay-2">
+            <div class="profile-icon linkedin-icon">
+              <i class="fa-brands fa-linkedin-in"></i>
+            </div>
+            <h3 class="profile-platform">LinkedIn</h3>
+            <p class="profile-desc">
+              Professional networking, internship search, tech industry discussions, and career updates.
+            </p>
+            <div class="profile-link-wrap">
+              <a href="https://linkedin.com/in/your-username" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline-glow profile-btn">
+                <span>View LinkedIn</span>
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            </div>
+            <span class="profile-handle">linkedin.com/in/your-username</span>
+          </div>
+
+          <!-- 4. CodeChef -->
+          <!-- EDITABLE: Replace with your actual CodeChef profile link -->
+          <div class="profile-card card reveal-fade">
+            <div class="profile-icon codechef-icon">
+              <i class="fa-solid fa-utensils"></i>
+            </div>
+            <h3 class="profile-platform">CodeChef</h3>
+            <p class="profile-desc">
+              Competitive programming contests, timed algorithmic rounds, and mathematical challenge solving.
+            </p>
+            <div class="profile-link-wrap">
+              <a href="https://codechef.com/users/your-username" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline-glow profile-btn">
+                <span>View CodeChef</span>
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            </div>
+            <span class="profile-handle">codechef.com/users/your-username</span>
+          </div>
+
+          <!-- 5. HackerRank -->
+          <!-- EDITABLE: Replace with your actual HackerRank profile link -->
+          <div class="profile-card card reveal-fade delay-1">
+            <div class="profile-icon hackerrank-icon">
+              <i class="fa-brands fa-hackerrank"></i>
+            </div>
+            <h3 class="profile-platform">HackerRank</h3>
+            <p class="profile-desc">
+              Language certification badges in C++, Python, Java, and relational SQL query challenges.
+            </p>
+            <div class="profile-link-wrap">
+              <a href="https://hackerrank.com/your-username" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline-glow profile-btn">
+                <span>View HackerRank</span>
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            </div>
+            <span class="profile-handle">hackerrank.com/your-username</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- -------------------------------------------- -->
+    <!-- 8. RESUME SECTION (Recruiter Snapshot)       -->
+    <!-- -------------------------------------------- -->
+    <section id="resume" class="resume-section section-padding">
+      <div class="container">
+        <div class="resume-banner card reveal-fade">
+          <div class="resume-banner-glow" aria-hidden="true"></div>
+          
+          <div class="resume-content">
+            <div class="resume-badge">
+              <i class="fa-solid fa-file-lines"></i>
+              <span>ATS-Friendly Resume</span>
+            </div>
+
+            <!-- Required Heading & Text -->
+            <h2 class="resume-heading">Want to know more about me?</h2>
+            <p class="resume-description">
+              Download my resume to explore my education, technical skills, projects and experience.
+            </p>
+
+            <!-- Action Buttons -->
+            <div class="resume-btn-group">
+              <a href="assets/Aryan-Kumar-Resume.pdf" download="Aryan-Kumar-Resume.pdf" class="btn btn-primary btn-lg">
+                <i class="fa-solid fa-download" aria-hidden="true"></i>
+                <span>Download Resume</span>
+              </a>
+              <a href="assets/Aryan-Kumar-Resume.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-lg">
+                <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>
+                <span>View in Browser</span>
+              </a>
+            </div>
+
+            <p class="resume-meta">
+              <i class="fa-solid fa-circle-check"></i> Standard 1-page format &bull; Relative path: <code>assets/Aryan-Kumar-Resume.pdf</code>
+            </p>
+          </div>
+
+          <!-- Resume Document Preview Card -->
+          <div class="resume-preview-wrapper">
+            <div class="resume-doc-card">
+              <div class="doc-header">
+                <div class="doc-avatar"><i class="fa-solid fa-user-tie"></i></div>
+                <div>
+                  <h4 class="doc-name">Aryan Kumar</h4>
+                  <span class="doc-title">B.Tech CSE &bull; 3rd Year Ongoing</span>
+                </div>
+              </div>
+              <div class="doc-divider"></div>
+              <div class="doc-section">
+                <span class="doc-sec-title">Education</span>
+                <p class="doc-sec-text">B.Tech Computer Science &amp; Engineering</p>
+              </div>
+              <div class="doc-section">
+                <span class="doc-sec-title">Languages &amp; Core</span>
+                <p class="doc-sec-text">C++, Python, Java, JavaScript, MySQL, DSA, OOP, DBMS</p>
+              </div>
+              <div class="doc-section">
+                <span class="doc-sec-title">Projects</span>
+                <p class="doc-sec-text">Student Management System &bull; ML Prediction &bull; Data Dashboard</p>
+              </div>
+              <div class="doc-status-badge">
+                <span class="status-dot"></span> SDE Intern Candidate
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- -------------------------------------------- -->
+    <!-- 9. CONTACT SECTION (Recruiter Focused)       -->
+    <!-- -------------------------------------------- -->
+    <section id="contact" class="contact-section section-padding">
+      <div class="container">
+        <div class="section-header text-center reveal-fade">
+          <span class="section-tag">07 // REACH OUT</span>
+          <h2 class="section-title">Let's Connect</h2>
+          <div class="section-line"></div>
+          <p class="section-subtitle">
+            I am currently open to internship opportunities, software development roles, collaborations and interesting technical projects.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Left Column: Contact Channels & Availability Info -->
+          <div class="contact-info-card card reveal-fade">
+            <h3 class="contact-info-title">Direct Inquiries</h3>
+            <p class="contact-info-desc">
+              If you have an open software development internship position, a placement opening, or would like to discuss a project, please reach out via email or LinkedIn.
+            </p>
+
+            <div class="contact-methods">
+              <!-- Email with Direct Link & Copy Action -->
+              <div class="contact-method-item contact-method-email">
+                <div class="method-icon"><i class="fa-solid fa-envelope"></i></div>
+                <div class="method-details">
+                  <span class="method-label">Direct Email</span>
+                  <!-- EDITABLE: Replace with your actual email address -->
+                  <a href="mailto:aryan.kumar.placeholder@email.com?subject=Software%20Development%20Internship%20Opportunity" class="method-val">
+                    aryan.kumar.placeholder@email.com
+                  </a>
+                </div>
+                <button type="button" class="btn-copy-inline" id="contact-copy-email-btn" title="Copy email address" aria-label="Copy email address">
+                  <i class="fa-regular fa-copy"></i>
+                </button>
+              </div>
+
+              <!-- LinkedIn -->
+              <a href="https://linkedin.com/in/your-username" target="_blank" rel="noopener noreferrer" class="contact-method-item">
+                <div class="method-icon"><i class="fa-brands fa-linkedin-in"></i></div>
+                <div class="method-details">
+                  <span class="method-label">LinkedIn</span>
+                  <!-- EDITABLE: Replace with your actual LinkedIn handle -->
+                  <span class="method-val">linkedin.com/in/your-username</span>
+                </div>
+                <i class="fa-solid fa-arrow-up-right-from-square method-arrow"></i>
+              </a>
+
+              <!-- GitHub -->
+              <a href="https://github.com/your-username" target="_blank" rel="noopener noreferrer" class="contact-method-item">
+                <div class="method-icon"><i class="fa-brands fa-github"></i></div>
+                <div class="method-details">
+                  <span class="method-label">GitHub</span>
+                  <!-- EDITABLE: Replace with your actual GitHub username -->
+                  <span class="method-val">github.com/your-username</span>
+                </div>
+                <i class="fa-solid fa-arrow-up-right-from-square method-arrow"></i>
+              </a>
+            </div>
+
+            <!-- Availability Note Box -->
+            <div class="availability-card">
+              <div class="avail-header">
+                <span class="pulse-dot"></span>
+                <span class="avail-title">Internship Availability Status</span>
+              </div>
+              <p class="avail-text">
+                Actively seeking summer / semester software development internships and placement opportunities. Open to remote or on-site roles across India.
+              </p>
+            </div>
+          </div>
+
+          <!-- Right Column: Clean Interactive Contact Form -->
+          <div class="contact-form-card card reveal-fade delay-1">
+            <h3 class="form-title">Send a Direct Message</h3>
+            <p class="form-subtitle">Fill in the fields below and I will respond to your inquiry promptly.</p>
+
+            <!-- 
+              IMPORTANT NOTE ON CONNECTING THIS FORM:
+              This is a static frontend website compatible with GitHub Pages.
+              To connect this form to real email delivery:
+              1. Using Formspree (Free & recommended):
+                 Replace the <form> tag below with:
+                 <form action="https://formspree.io/f/YOUR_FORMSPREE_ID" method="POST" id="contact-form">
+              2. Or use EmailJS as commented in `script.js`.
+            -->
+            <form id="contact-form" class="contact-form" novalidate>
+              <div class="form-group">
+                <label for="name" class="form-label">Your Name <span class="required-star">*</span></label>
+                <div class="input-wrap">
+                  <i class="fa-regular fa-user input-icon"></i>
+                  <input type="text" id="name" name="name" class="form-input" placeholder="e.g. Alex Morgan" required autocomplete="name">
+                </div>
+                <span class="error-msg" id="name-error">Please enter your name.</span>
+              </div>
+
+              <div class="form-group">
+                <label for="email" class="form-label">Your Email <span class="required-star">*</span></label>
+                <div class="input-wrap">
+                  <i class="fa-regular fa-envelope input-icon"></i>
+                  <input type="email" id="email" name="email" class="form-input" placeholder="e.g. alex@company.com" required autocomplete="email">
+                </div>
+                <span class="error-msg" id="email-error">Please enter a valid email address.</span>
+              </div>
+
+              <div class="form-group">
+                <label for="message" class="form-label">Message <span class="required-star">*</span></label>
+                <div class="input-wrap textarea-wrap">
+                  <i class="fa-regular fa-comment-dots input-icon textarea-icon"></i>
+                  <textarea id="message" name="message" class="form-input form-textarea" rows="5" placeholder="Share your inquiry, internship opportunity, or project details..." required></textarea>
+                </div>
+                <span class="error-msg" id="message-error">Please write a message before sending.</span>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-block submit-btn" id="submit-btn">
+                <i class="fa-regular fa-paper-plane"></i>
+                <span>Send Message</span>
+              </button>
+
+              <!-- Form Submission Feedback Toast (Managed via JS) -->
+              <div id="form-feedback" class="form-feedback" aria-live="polite"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============================================== -->
+  <!-- 10. FOOTER                                     -->
+  <!-- ============================================== -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="#hero" class="brand-logo footer-logo">
+            <span class="logo-bracket">&lt;</span><span class="logo-name">Aryan</span><span class="logo-accent">.dev</span><span class="logo-bracket"> /&gt;</span>
+          </a>
+          <p class="footer-tagline">
+            B.Tech CSE Student | Aspiring Software Developer
+          </p>
+        </div>
+
+        <!-- Social Links Required -->
+        <div class="footer-socials">
+          <a href="https://github.com/your-username" target="_blank" rel="noopener noreferrer" class="footer-social-link" aria-label="GitHub">
+            <i class="fa-brands fa-github"></i>
+            <span>GitHub</span>
+          </a>
+          <a href="https://linkedin.com/in/your-username" target="_blank" rel="noopener noreferrer" class="footer-social-link" aria-label="LinkedIn">
+            <i class="fa-brands fa-linkedin-in"></i>
+            <span>LinkedIn</span>
+          </a>
+          <a href="mailto:aryan.kumar.placeholder@email.com" class="footer-social-link" aria-label="Email">
+            <i class="fa-solid fa-envelope"></i>
+            <span>Email</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p class="copyright-text">
+          &copy; 2026 <strong>Aryan Kumar</strong>. All rights reserved. Built with clean HTML5, CSS3 &amp; JavaScript.
+        </p>
+        <div class="footer-bottom-links">
+          <a href="#hero">Back to top <i class="fa-solid fa-arrow-up"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ============================================== -->
+  <!-- FLOATING UTILITIES (Back to Top & Modals)      -->
+  <!-- ============================================== -->
+  <button type="button" class="back-to-top-btn" id="back-to-top-btn" aria-label="Back to top" title="Back to top">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+
+  <!-- Interactive Project Details Modal -->
+  <div class="demo-modal" id="demo-modal" aria-hidden="true" role="dialog" aria-labelledby="modal-project-title">
+    <div class="demo-modal-dialog card">
+      <button type="button" class="modal-close-btn" id="modal-close-btn" aria-label="Close dialog">&times;</button>
+      <div class="modal-category" id="modal-project-category">Project Category</div>
+      <h3 class="modal-title" id="modal-project-title">Project Title</h3>
+      <p class="modal-desc" id="modal-project-desc">Project description goes here.</p>
+      
+      <div class="modal-section-title">Key Engineering Highlights:</div>
+      <ul class="modal-highlights-list" id="modal-project-highlights">
+        <!-- Dynamically injected via JS -->
+      </ul>
+
+      <div class="modal-section-title">Tech Stack:</div>
+      <div class="modal-tech" id="modal-project-tech"></div>
+
+      <div class="modal-actions">
+        <button type="button" class="btn btn-secondary" id="modal-dismiss-btn">Close</button>
+        <a href="https://github.com/your-username" target="_blank" rel="noopener noreferrer" class="btn btn-primary" id="modal-repo-link">
+          <i class="fa-brands fa-github"></i> View GitHub Repo
+        </a>
+      </div>
+    </div>
+    <div class="modal-backdrop" id="modal-backdrop"></div>
+  </div>
+
+  <!-- Notification Toast -->
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+  <!-- Main JavaScript File -->
+  <script src="script.js"></script>
+</body>
+</html>

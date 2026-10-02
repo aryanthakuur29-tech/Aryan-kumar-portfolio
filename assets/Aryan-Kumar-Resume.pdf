@@ -1,0 +1,206 @@
+%PDF-1.4
+1 0 obj
+<<
+  /Type /Catalog
+  /Pages 2 0 R
+>>
+endobj
+2 0 obj
+<<
+  /Type /Pages
+  /Kids [3 0 R]
+  /Count 1
+>>
+endobj
+3 0 obj
+<<
+  /Type /Page
+  /Parent 2 0 R
+  /MediaBox [0 0 595 842]
+  /Resources <<
+    /Font <<
+      /F1 5 0 R
+      /F2 6 0 R
+    >>
+  >>
+  /Contents 4 0 R
+>>
+endobj
+5 0 obj
+<<
+  /Type /Font
+  /Subtype /Type1
+  /BaseFont /Helvetica
+>>
+endobj
+6 0 obj
+<<
+  /Type /Font
+  /Subtype /Type1
+  /BaseFont /Helvetica-Bold
+>>
+endobj
+4 0 obj
+<<
+  /Length 3152
+>>
+stream
+BT
+/F2 22 Tf
+50 790 Td
+(ARYAN KUMAR) Tj
+ET
+BT
+/F1 11 Tf
+50 770 Td
+(B.Tech Computer Science & Engineering | 3rd Year Student) Tj
+ET
+BT
+/F1 9 Tf
+50 755 Td
+(Email: aryan.kumar.placeholder@email.com  |  LinkedIn: linkedin.com/in/aryan-kumar  |  GitHub: github.com/aryan-kumar) Tj
+ET
+BT
+0 0 0 rg
+0.5 w
+50 745 m
+545 745 l
+S
+ET
+BT
+/F2 13 Tf
+50 725 Td
+(CAREER OBJECTIVE) Tj
+ET
+BT
+/F1 10 Tf
+50 708 Td
+(Passionate 3rd-year Computer Science & Engineering student with strong foundations in Data Structures,) Tj
+0 -14 Td
+(Algorithms, Object-Oriented Programming, and Web Development. Seeking a software development internship) Tj
+0 -14 Td
+(to contribute to practical engineering projects and expand technical skillsets.) Tj
+ET
+BT
+/F2 13 Tf
+50 660 Td
+(EDUCATION) Tj
+ET
+BT
+/F2 11 Tf
+50 642 Td
+(Bachelor of Technology - Computer Science & Engineering) Tj
+ET
+BT
+/F1 10 Tf
+50 628 Td
+([College / University Name Placeholder] | Expected Graduation: 2026/2027) Tj
+0 -13 Td
+(Current Status: 3rd Year Ongoing) Tj
+0 -13 Td
+(Relevant Coursework: Data Structures & Algorithms, DBMS, Operating Systems, Computer Networks, OOP) Tj
+ET
+BT
+/F2 13 Tf
+50 580 Td
+(TECHNICAL SKILLS) Tj
+ET
+BT
+/F1 10 Tf
+50 562 Td
+(Programming Languages: C, C++, Python, Java) Tj
+0 -14 Td
+(Web Technologies: HTML5, CSS3, JavaScript (ES6+)) Tj
+0 -14 Td
+(Databases: MySQL, SQL) Tj
+0 -14 Td
+(Computer Science: Data Structures & Algorithms, DBMS, Operating Systems, Computer Networks, OOP) Tj
+0 -14 Td
+(AI & Machine Learning: Machine Learning Fundamentals, Pandas, NumPy, Data Analysis) Tj
+0 -14 Td
+(Developer Tools: Git, GitHub, VS Code) Tj
+ET
+BT
+/F2 13 Tf
+50 455 Td
+(KEY ACADEMIC PROJECTS) Tj
+ET
+BT
+/F2 11 Tf
+50 437 Td
+(1. Student Management System | HTML, CSS, JavaScript, MySQL) Tj
+ET
+BT
+/F1 9.5 Tf
+50 423 Td
+(- Developed a comprehensive portal with student records, course enrollment, and grade tracking.) Tj
+0 -12 Td
+(- Implemented responsive dashboard with client-side form validation and MySQL database queries.) Tj
+ET
+BT
+/F2 11 Tf
+50 395 Td
+(2. Machine Learning Prediction System | Python, Pandas, NumPy, Scikit-learn) Tj
+ET
+BT
+/F1 9.5 Tf
+50 381 Td
+(- Built predictive model pipeline with exploratory data analysis and feature engineering.) Tj
+0 -12 Td
+(- Evaluated model performance across multiple metrics with reproducible Jupyter notebooks.) Tj
+ET
+BT
+/F2 11 Tf
+50 353 Td
+(3. Personal Developer Portfolio | HTML5, CSS3, JavaScript) Tj
+ET
+BT
+/F1 9.5 Tf
+50 339 Td
+(- Designed responsive dark-mode portfolio highlighting technical projects, coding profiles, and skills.) Tj
+0 -12 Td
+(- Engineered modular code structure with zero external framework overhead, fully GitHub Pages compatible.) Tj
+ET
+BT
+/F2 13 Tf
+50 305 Td
+(CODING PROFILES & PLATFORMS) Tj
+ET
+BT
+/F1 10 Tf
+50 287 Td
+(GitHub: github.com/your-username  |  LeetCode: leetcode.com/your-username) Tj
+0 -14 Td
+(CodeChef: codechef.com/users/your-username  |  HackerRank: hackerrank.com/your-username) Tj
+ET
+BT
+/F2 13 Tf
+50 240 Td
+(CERTIFICATIONS & WORKSHOPS [PLACEHOLDERS]) Tj
+ET
+BT
+/F1 10 Tf
+50 222 Td
+(- [Certification Name / Platform / Issuing Organization - Year]) Tj
+0 -14 Td
+(- [Technical Workshop / Hackathon Participation - Year]) Tj
+ET
+endstream
+endobj
+xref
+0 7
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000300 00000 n 
+0000000212 00000 n 
+0000000256 00000 n 
+trailer
+<<
+  /Size 7
+  /Root 1 0 R
+>>
+startxref
+3655
+%%EOF
